@@ -1,0 +1,135 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  display: block;
+  margin: auto;
+  max-width: 1600px;
+  background-color: #ffefef;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  padding: 3rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 2rem;
+}
+
+h3 {
+  font-size: 25px;
+  margin-bottom: 2rem;
+}
+
+header {
+  text-align: center;
+}
+
+.logo-subtitle {
+  display: block;
+  margin: auto;
+  text-align: center;
+  font-size: 24px;
+  line-height: 2.5rem;
+  max-width: 600px;
+  padding: 30px 0 50px 0;
+}
+
+.offer {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 6rem;
+}
+
+.offer-subtitle {
+  display: block;
+  margin: auto;
+  font-size: 20px;
+  line-height: 2rem;
+  max-width: 450px;
+  padding-bottom: 55px;
+}
+
+.about-foto {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about img {
+  width: 32%;
+  max-height: 300px;
+}
+
+.about-text {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  text-align: left;
+  padding: 60px 0px 40px 0;
+}
+
+.about p {
+  width: 47%;
+  margin: 2rem 0;
+}
+
+.salmon,
+.tagliatelle,
+.sweet {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.salmon-text,
+.tagliatelle-text,
+.sweet-text {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  max-width: 400px;
+}
+
+.tagliatelle-text {
+  order: -1;
+  text-align: right;
+}
+
+.tagliatelle button {
+  align-self: flex-end;
+}
+
+.menu img {
+  width: 42%;
+}
+
+button {
+  padding: 1rem;
+  width: 200px;
+  background-color: #ffefef;
+  border: none;
+  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
+  margin-top: 2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ffcdcd;
+}
+
+footer {
+  text-align: center;
+  padding: 3rem;
+}
